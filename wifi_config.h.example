@@ -1,0 +1,13 @@
+// WiFi configuration
+// Copy this file to wifi_config.h in each project directory and fill in your credentials.
+// WARNING: wifi_config.h is gitignored - never commit real credentials.
+
+#ifndef WIFI_CONFIG_H
+#define WIFI_CONFIG_H
+
+// Replace with your WiFi credentials
+#define WIFI_SSID "your_wifi_ssid"
+#define WIFI_PASS "your_wifi_password"
+#define HOSTNAME "esp32cam"
+
+#endif

@@ -13,3 +13,6 @@ sdkconfig.old
 *.o
 *.pyc
 __pycache__/
+
+# WiFi credentials (never commit real secrets)
+wifi_config.h

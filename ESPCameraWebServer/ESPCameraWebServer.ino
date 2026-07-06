@@ -7,10 +7,12 @@
 #include "board_config.h"
 
 // ===========================
-// Enter your WiFi credentials
+// WiFi credentials — copy wifi_config.h.example from repo root
+// to this directory as wifi_config.h and fill in your details.
 // ===========================
-const char *ssid = "TAP Sai PG 4th Floor 415 -2.4G";
-const char *password = "9845321445";
+#include "wifi_config.h"
+const char *ssid = WIFI_SSID;
+const char *password = WIFI_PASS;
 
 void startCameraServer();
 void setupLedFlash();

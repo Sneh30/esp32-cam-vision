@@ -6,8 +6,8 @@
 // ======== MOTOR PIN ASSIGNMENT (MATCHING YOUR ESP32-CAM BOARD) ========
 // IN1 = GPIO 12
 // IN2 = GPIO 13
-// IN3 = GPIO 15
-// IN4 = GPIO 16
+// IN3 = GPIO 14
+// IN4 = GPIO 15
 
 const int IN1 = 12;
 const int IN2 = 13;
@@ -33,7 +33,7 @@ void motorInit() {
 }
 
 // ======== MOVE FORWARD ========
-void moveForward(int s) {
+void moveForward(int speed) {
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
 
@@ -42,7 +42,7 @@ void moveForward(int s) {
 }
 
 // ======== TURN LEFT ========
-void turnLeft(int s) {
+void turnLeft(int speed) {
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
 
@@ -51,7 +51,7 @@ void turnLeft(int s) {
 }
 
 // ======== TURN RIGHT ========
-void turnRight(int s) {
+void turnRight(int speed) {
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
 

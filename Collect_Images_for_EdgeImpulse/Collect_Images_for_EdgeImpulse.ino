@@ -6,16 +6,13 @@
  * to turn on debug messages
  */
 
-// if you define WIFI_SSID and WIFI_PASS before importing the library, 
-// you can call connect() instead of connect(ssid, pass)
-//
 // If you set HOSTNAME and your router supports mDNS, you can access
 // the camera at http://{HOSTNAME}.local
+//
+// Copy wifi_config.h.example from the repo root into this directory,
+// rename to wifi_config.h, and fill in your WiFi credentials.
 
-#define WIFI_SSID "TAP Sai PG 4th Floor 415 -2.4G"
-#define WIFI_PASS "9845321445"
-#define HOSTNAME "esp32cam"
-
+#include "wifi_config.h"
 
 #include <eloquent_esp32cam.h>
 #include <eloquent_esp32cam/extra/esp32/wifi/sta.h>
