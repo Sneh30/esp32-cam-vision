@@ -1,0 +1,5 @@
+# Arduino/PlatformIO sketches are C++. Headers here are included from .ino/.cpp translation units,
+# so GitHub Linguist should report the project as C++ rather than C (camera_index.h alone is 147 KB of C).
+*.h   linguist-language=C++
+*.hpp linguist-language=C++
+*.ino linguist-language=C++
