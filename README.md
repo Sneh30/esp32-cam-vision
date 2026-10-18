@@ -1,5 +1,11 @@
 # ESP32-CAM Vision Suite
 
+## Explainer video
+
+[▶ Watch the explainer video](explainer.mp4)
+
+---
+
 A collection of three ESP32-CAM projects for computer vision and math-based intelligence — all powered by the **AI-Thinker ESP32-CAM** module.
 
 This suite implements real-time visual intelligence on ESP32 hardware using math-driven approaches (HSV color quantization, centroid computation, pixel-level statistical analysis) rather than neural networks or LLMs.
