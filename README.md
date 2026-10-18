@@ -3,6 +3,8 @@
 ## Explainer video
 
 <video src="https://github.com/user-attachments/assets/0b31ea48-ff81-4dcf-98e0-07cb829958ff" controls playsinline preload="metadata"></video>
+> 🔊 **Turn sound on** — the player starts muted; click the speaker icon in the controls.
+
 
 ---
 
